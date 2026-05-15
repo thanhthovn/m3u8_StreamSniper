@@ -23,7 +23,7 @@ try:
 except Exception:
     _HAS_WDM = False
 
-DEFAULT_URL = "https://tv360.vn/tv/htv1?ch=190"
+DEFAULT_URL = "https://news.abplive.com/live-tv"
 M3U8_RE = re.compile(r'https?://[^\'"\s>]+\.m3u8[^\'"\s>]*', flags=re.IGNORECASE)
 
 def now():
